@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'class',
+  variants: {
+    display: ['hover'],
+  },
   theme: {
     extend: {
       colors: {
